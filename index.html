@@ -1,0 +1,578 @@
+<!DOCTYPE html><html lang="en-EU"><head>
+<meta charset="UTF-8"/>
+  <title>HTML5 Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+function myFunction1() {
+   var element = document.getElementById("myDIV1"); /*-- HERE -- */
+   element.classList.toggle("mystyle");
+    
+    if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+}
+ 
+  
+}
+function myFunction2() {
+   var element = document.getElementById("myDIV2");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result1").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result1").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+function myFunction3() {
+   var element = document.getElementById("myDIV3");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result2").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result2").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+function myFunction4() {
+   var element = document.getElementById("myDIV4");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result3").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result3").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+function myFunction5() {
+   var element = document.getElementById("myDIV5");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result4").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result4").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+function myFunction6() {
+   var element = document.getElementById("myDIV6");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result5").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result5").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+
+function myFunction7() {
+   var element = document.getElementById("myDIV7");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result6").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result6").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+
+function myFunction8() {
+   var element = document.getElementById("myDIV8");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result7").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result7").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+
+function myFunction9() {
+   var element = document.getElementById("myDIV9");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result8").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result8").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+
+function myFunction10() {
+   var element = document.getElementById("myDIV10");
+   element.classList.toggle("mystyle");
+       if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result9").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result9").innerHTML = "Sorry, your browser does not support web storage...";
+}
+}
+</script>
+<script>
+
+function check() {
+var question1 = document.getElementById("right");
+var question2 = document.getElementById("right1");
+var question3 = document.getElementById("right2");
+var question4 = document.getElementById("right3");
+var question5 = document.getElementById("right4");
+var question6 = document.getElementById("right5");
+var question7 = document.getElementById("right6");
+var question8 = document.getElementById("right7");
+var question9 = document.getElementById("right8");
+var question10 = document.getElementById("right9");
+
+var score = 0;
+
+if (question1.checked == true) {
+  score += 1;
+}
+if (question2.checked == true) {
+  score += 1;
+}
+if (question3.checked == true) {
+  score += 1;
+}
+if (question4.checked == true) {
+  score += 1;
+}
+if (question5.checked == true) {
+  score += 1;
+}
+if (question6.checked == true) {
+  score += 1;
+}
+if (question7.checked == true) {
+  score += 1;
+}
+if (question8.checked == true) {
+  score += 1;
+}
+if (question9.checked == true) {
+  score += 1;
+}
+if (question10.checked == true) {
+  score += 1;
+}
+
+  
+  var messages = ["You Did Great", "You did good but watch video again to recap, if u wana start quiz again press F5", "You must watch the video again, if u wana start quiz again press F5"];
+pics = ["https://media2.giphy.com/media/3ohzdSDikfrYZtbNAI/source.gif", "https://media3.giphy.com/media/xUNd9G6KgAoXeWcMJq/giphy.gif", "https://media1.giphy.com/media/d3JIEl17hpr8q4IU/source.gif"];
+
+
+var range;
+
+if (score < 5) {
+  range = 2;
+}
+if (score >= 5 && score < 7 ) {
+  range = 1;
+}
+if (score >= 7) {
+  range = 0;
+}
+
+
+document.getElementById("demoimg").style.visibility = "visible";
+
+document.getElementById("myLink").style.display = "block";
+
+document.getElementById("demoimg").innerHTML = "You have got" + " " +  score + " " + "correct answers";
+
+document.getElementById("message").innerHTML = messages[range];
+
+document.getElementById("myimage").src = pics[range];
+
+document.getElementById("myimage").style.width = "400px";
+document.getElementById("myimage").style.height = "200px";
+
+document.getElementById("myimage").style.border = "2px solid gold";
+
+  
+
+
+}
+</script>
+<style>
+body {
+  font-size: 16px;
+  font-family: Serif;
+  border: 2px soild gray;
+  padding: 0px;
+  margin: auto;
+  text-align: left;
+}
+header {
+ border: 2px solid gray;
+ padding: 16px;
+ margin: auto;
+ font-size: 1em;
+ background-image: url("http://torontotouchfootball.com/wp-content/uploads/2017/02/blue-sky-clouds-abstract-background-header.jpg");
+ background-size: cover;
+ backgorund-repeat: no-repeat;
+ width: auto;
+ hight: auto; 
+ color: white;
+
+}
+nav {
+ border: 2px solid gray;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1ufttoHAAxsm9I5iOYwyIjNjCFwMhepjjMETTJqDaeHxR07r");
+ background-size: cover;
+ background-repeate: no-repeate;
+
+}
+ul {
+
+ list-style-type: none;
+ overflow: hidden;
+ padding: 0px;
+ margin: 0px;
+ background-color: transpent;
+ font-size: 1.2em;
+
+}
+li {
+ float: left;
+}
+li a {
+  text-align: center;
+  display: block;
+  padding: 16px;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  font-family: lemon;
+  font-size: .875em;
+}
+li a:hover {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+main {
+  border: 2px solid gray;
+  padding: 12px;
+  margin: auto;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1ufttoHAAxsm9I5iOYwyIjNjCFwMhepjjMETTJqDaeHxR07r");
+  background-size: cover;
+  backgorund-repeat: no-repeat;
+  width: auto;
+  hight: auto; 
+  
+}
+footer {
+ border: 2px solid gray;
+ padding: 12px;
+ margin: auto;
+ font-size: 1.3em; 
+ height: 80px;
+}
+footer a {
+ text-decoration: none;
+ color: black;
+}
+footer a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none; 
+  font-family: sans;  
+  
+}
+.mystyle {
+  width: 30%;  
+  background-color: #00cc00;
+  box-sizing: border-box;
+}
+.answers {
+ font-size: 1.3em;
+ padding: 5px;
+ margin: 0;
+
+ 
+}
+input {
+  height: 20px;
+  width: 20px;
+}
+h1 {
+ font-size: 1.7em;
+ background-color: white;
+ box-sizing: border-box;
+  width: 70%;
+}
+
+#finish a:hover {
+  color: green;  
+  width: 400px;
+}
+
+header a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+header a:hover {
+  color: green;
+  
+}
+</style>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-75065234-3', 'auto');
+			ga('send', 'pageview', '/9351a59c-af88-42f5-84d4-5996a7987d3c.html');
+		</script>
+		<script>
+		window.goatcounter = {
+			path: '/9351a59c-af88-42f5-84d4-5996a7987d3c.html'
+		};
+		</script>
+		<script data-goatcounter="https://htmlpasta.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script></head>
+<body>
+<header>
+<span style="float:right;font-family:Courier New;font-size:1em;color:black;">Please Like The video and subsribe <a href="https://youtu.be/bpgvPpo-kZo">Video link</a></span>
+<h2>HTML &amp; CSS <span>Quiz</span></h2>
+</header>
+
+<nav>
+<ul>
+<li><a href="#" title="HTML و CSS خطوة بخطوة بطريقة بسيطة - دورة كاملة تعلم">First<br/> Quiz</a></li>
+<li title="You can start this quiz before watching the next video" onclick="notAllowed()"><a href="#">Second<br/> Quiz</a></li>
+<li title="You can start this quiz before watching the next video" onclick="notAllowed()"><a href="#">Thired<br/> Quiz</a></li>
+<li title="You can start this quiz before watching the next video" onclick="notAllowed()"><a href="#">Fourth<br/> Quiz</a></li>
+
+</ul>
+</nav>
+<span>مرحبا بك في الاختبار الخاص بقناة برمجه اونلاين</span>
+<script>
+function notAllowed() {
+  alert("You Must watch the Second video to start this Quiz");
+}
+
+</script>
+<main>
+<div>
+<h2 style="text-align:center;">The Test</h2>
+<p style="text-align:center;">The test contains 10 questions and there is no time limit. <br/>
+The test is not official, it&#39;s just a nice way to see how much you know, or don&#39;t know, about HTML and css Please like and subsribe</p>
+
+</div>
+<br/><br/>
+<section>
+<div class="quiz firstq">
+<h1>What does HTML stand for?</h1>
+<div><input type="radio" name="first"/>
+<span class="answers fa wrong" id="avalue" value="Hyper Text and Markup Languge">Hyper Text and Markup Languge</span><br/></div>
+
+<div id="myDIV1"><input type="radio" id="right" value="Hyper Text  Markup Languge" name="first"/>
+<span class="answers sa">Hyper Text  Markup Languge</span><br/></div>
+
+<div><input type="radio" name="first"/>
+<span class="answers ta wrong" id="bvalue" value="Hyper Tool  Making Languge">Hyper Tool  Making Languge</span><br/></div>
+
+<div><input type="radio" name="first"/>
+<span class="answers 4a wrong" id="cvalue" value="Hyper Tool and Markup Languge">Hyper Tool and Markup Languge</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction1()">Check Answer</button>
+
+<div id="result"></div>
+</div>
+<br/>
+<div class="quiz secondq">
+<h1>Who is making the Web standards?</h1>   
+<div><input type="radio" name="second"/><span class="answers fa wrong" id="dvalue" value="Firefox">Firefox</span><br/></div>
+
+<div><input type="radio" name="second"/><span class="answers sa wrong" id="evalue" value="Google">Google</span><br/></div>
+
+<div><input type="radio" name="second"/><span class="answers ta wrong" id="fvalue" value="Microsoft">Microsoft</span><br/></div>
+
+<div id="myDIV2"><input type="radio" name="second" id="right1" value="The World Wide Web Consortium"/><span class="answers 4a wrong">The World Wide Web Consortium</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction2()">Check Answer</button>
+<div id="result1"></div>
+</div>
+<br/>
+
+<div class="quiz thirdq">
+<h1>Web site is a set of webpages linked to each others by hyper links</h1>
+<div id="myDIV3"><input type="radio" name="third" id="right2" value="True"/><span class="answers fa wrong">True</span><br/></div>
+
+<div><input type="radio" name="third"/><span class="answers sa wrong">False</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction3()">Check Answer</button>
+<div id="result2"></div>
+</div>
+<br/>
+
+<div class="quiz fourthq">
+<h1>HTML is used to change the colors and style for the page</h1>
+<div><input type="radio" name="fourth"/><span class="answers fa wrong" id="hvalue" value="True">True</span><br/></div>
+
+<div id="myDIV4"><input type="radio" name="fourth" id="right3" value="False"/><span class="answers sa wrong">False</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction4()">Check Answer</button>
+<div id="result3"></div>
+<br/>
+</div>
+
+<div class="quiz fiveq">
+<h1 style="font-size:1.6em;"><xmp><!DOCTYPE html></xmp> used for telling the browser you are using HTML5 langague </h1>
+<div id="myDIV5"><input type="radio" name="five" id="right4" value="required"/><span class="answers fa">True</span><br/></div>
+
+
+<div><input type="radio" name="five"/><span class="answers 4a wrong" id="kvalue" value="placeholder">False</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction5()">Check Answer</button>
+<div id="result4"></div>
+</div>
+
+
+
+<div class="quiz sexq">
+<h1 style="font-size:1.6em;">CSS used for build web page with fixed color and fixed font-size tag</h1>
+<div id="myDIV6"><input type="radio" name="six" id="right5" value="False"/><span class="answers fa">False</span><br/></div>
+
+
+<div><input type="radio" name="six"/><span class="answers 4a wrong" id="kvalue" value="True">True</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction6()">Check Answer</button>
+<div id="result5"></div>
+</div>
+
+
+<div class="quiz sevenq">
+<h1 style="font-size:1.6em;">What does CSS stand for?</h1>
+
+<div><input type="radio" name="seven"/><span class="answers 4a wrong" id="kvalue" value="False">Cascading sheet style</span><br/></div>
+
+<div><input type="radio" name="seven"/><span class="answers 4a wrong" id="kvalue" value="False">Case style sheet</span><br/></div>
+
+<div id="myDIV7"><input type="radio" name="seven" id="right6" value="Cascading Style Sheet
+"/><span class="answers fa">Cascading Style Sheet
+</span><br/></div>
+
+<div><input type="radio" name="seven"/><span class="answers 4a wrong" id="kvalue" value="False">Nothing name CSS</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction7()">Check Answer</button>
+<div id="result6"></div>
+</div>
+
+<div class="quiz eightq">
+<h1 style="font-size:1.6em;">Inline styles are used to apply the unique style rules to an element, by putting the CSS rules directly into the start tag </h1>
+<div id="myDIV8"><input type="radio" name="eight" id="right7" value="True"/><span class="answers fa">True</span><br/></div>
+
+
+<div><input type="radio" name="eight"/><span class="answers 4a wrong" id="kvalue" value="False">False</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction8()">Check Answer</button>
+<div id="result7"></div>
+</div>
+
+<div class="quiz nighnq">
+<h1 style="font-size:1.6em;">The color property is used to set the color of the text &#34;color:white;&#34; </h1>
+<div id="myDIV9"><input type="radio" name="nine" id="right8" value="True"/><span class="answers fa">True</span><br/></div>
+
+
+<div><input type="radio" name="nine"/><span class="answers 4a wrong" id="kvalue" value="False">False</span><br/></div><br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction9()">Check Answer</button>
+<div id="result8"></div>
+</div>
+
+<div class="quiz tenq">
+<h1 style="font-size:1.6em;">the background-color property sets the background color of an element or the body</h1>
+
+<div><input type="radio" name="ten"/><span class="answers 4a wrong" id="kvalue" value="False">False</span><br/></div>
+
+<div id="myDIV10"><input type="radio" name="ten" id="right9" value="True"/><span class="answers fa">True</span><br/></div>
+
+<br/>
+
+<button type="button" class="btn btn-secondary" onclick="myFunction10()">Check Answer</button>
+<div id="result9"></div>
+</div>
+
+
+
+
+
+
+</section>
+<br/><br/>
+
+<button type="button" onclick="check()" title="click me when you finish quiz to see your score">I&#39;m Finished</button>
+
+<div id="myscore"></div>
+
+
+<div id="finish">
+<p id="demoimg"></p>
+<p id="message"></p>
+<img id="myimage" src=""/>
+<br/><br/>
+<a style="display:none;font-size:17px;font-weight:bold;background-color:white;width:400px;" href="https://youtu.be/bpgvPpo-kZo" id="myLink">Click here to watch HTML and CSS video on Youtube</a> 
+</div>
+
+<br/><br/>
+
+
+<footer>
+<a href="https://youtu.be/bpgvPpo-kZo" title="about Me">Developed By:Mahmoud Hegazy</a>
+<a href="mailto:mahmoud_hegazy@gmail.com?Subject=enter%20your%20message%20here" style="float:right;" title="Mail me on mahmod.hagzy@gmail.com" target="_top">Contact Me on: mahmod.hagzy@gmail.com</a>
+</footer>
+</main>
+
+
+</body></html>
